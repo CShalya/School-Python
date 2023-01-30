@@ -1,0 +1,13 @@
+#program to calulate average marks and grade if a particular student
+m=int(input("enter the maths marks"))
+c=int(input("enter your computer marks"))
+e=int(input("enter your english marks"))
+avg=(m+c+e)/3
+if avg>=80:
+    print("grade a")
+elif avg>=60 and avg<=80:
+     print("grade b")
+elif avg>=40 and avg<=60:
+       print("grade c")
+else:
+    print("grade d")

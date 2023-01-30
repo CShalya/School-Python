@@ -1,0 +1,27 @@
+import random
+you=input("enter rock,paper,scissor")
+availablechoices=["rock","paper","scissor"]
+computer=random.choice(availablechoices)
+print("you chose",you,"and","computer chose",computer)
+
+if you==computer:
+    print("this round is a draw!")
+elif you=="scissor":
+    if computer=="rock":
+        print("you lose!")
+    else: # computer chose paper
+        print("you win!!")
+elif you=="rock":
+    if computer=="paper":
+        print("you lose!")
+    else: # computer chose scissor
+        print("you win!!")
+else: # you chose paper
+    if computer=="scissor":
+        print("you lose!")
+    else: # computer chose rock
+        print("you win!!")
+
+
+
+  

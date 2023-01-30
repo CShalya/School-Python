@@ -1,0 +1,10 @@
+#program to print whether a given character is upper case or lower case
+ch=input("enter a single character")
+if ch>="A" and ch<="Z":
+ print("character is upper case")
+elif ch>="a" and ch<="z":
+ print("charcahter is lower case")
+elif ch>="0" and ch<="9":
+ print("character is a number")
+else:
+ print("character is special case")
